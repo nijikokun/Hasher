@@ -7,7 +7,7 @@ Hasher is a small but powerful URL Hash Routing script. It allows you to easily 
 Usage:
     
     // Add a route: (http://url.to.index/#/name/Nijikokun) will initialize this.
-    Hasher.add("name/:name", function(name) {
+    Hasher.add("/name/:name", function(name) {
         // Alert
         alert(name);
         
