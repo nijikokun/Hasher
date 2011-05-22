@@ -5,9 +5,6 @@
 Hasher is a small but powerful URL Hash Routing script. It allows you to easily manage and create routes as well as apply object and functions to those routes.
 
 Usage:
-
-    // Setup the Hasher
-    Hasher.setup();
     
     // Add a route: (http://url.to.index/#/name/Nijikokun) will initialize this.
     Hasher.add("name/:name", function(name) {
@@ -17,6 +14,9 @@ Usage:
         // Console
         console.log(name);
     });
+    
+    // Setup the Hasher
+    Hasher.setup();
     
 <h3>Licensing?</h3>
 
