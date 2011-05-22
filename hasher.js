@@ -80,7 +80,7 @@ var Hasher = {
     },
     
     navigate: function(){
-        var args = makeArray(arguments);
+        var args = this.marray(arguments);
         var triggers = false;
       
         if (typeof args[args.length - 1] == "boolean") {
