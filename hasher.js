@@ -126,12 +126,12 @@ var Hasher = {
     },
     
     change: function(e){
-        var path = (this.history.cache ? this.getPath() : this.getFragment());
-        if (path == this.path) return;
-        this.path = path;
-        for (var i=0; i < this.routes.length; i++) {
-            var r = this.routes[i];
-            if (this.match(path, r['route'], r['callback'])) return;
+        var path = (Hasher.history.cache ? Hasher.getPath() : Hasher.getFragment());
+        if (path == Hasher.path) return;
+        Hasher.path = path;
+        for (var i=0; i < Hasher.routes.length; i++) {
+            var r = Hasher.routes[i];
+            if (Hasher.match(path, r['route'], r['callback'])) return;
         }
     }
 };
