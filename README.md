@@ -9,7 +9,7 @@ Usage:
     // Setup the Hasher
     Hasher.setup();
     
-    // Add a route
+    // Add a route: (http://url.to.index/#/name/Nijikokun) will initialize this.
     Hasher.add("name/:name", function(name) {
         // Alert
         alert(name);
