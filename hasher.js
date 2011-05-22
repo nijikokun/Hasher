@@ -7,7 +7,7 @@
  * @author: Nijikokun <nijikokun@gmail.com>
  * @copyright: May 22, 2011
  * @version: 0.2
- * @license: MIT License <>
+ * @license: MIT License <https://github.com/Nijikokun/Hasher>
  */
 
 var Hasher = {
