@@ -14,7 +14,7 @@ var Hasher = {
     routes: [],
     
     regex : {
-        HASH_STRIP: /^(\#|\#\!)*/,
+        HASH_STRIP: /^#!*/,
         ARG_NAMED: /:([\w\d]+)/g,
         ARG_SPLAT: /\*([\w\d]+)/g,
         ESC: /[-[\]{}()+?.,\\^$|#\s]/g
