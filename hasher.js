@@ -1,12 +1,12 @@
 /*
- * # |_|  _   _ |_   _   _ 1\5
+ * # |_|  _   _ |_   _   _ 2\6
  *   | | (_| _) | | |/_ | 
  * 
  * Url Hash Routing made easy.
  *
  * @author: Nijikokun <nijikokun@gmail.com>
  * @copyright: May 22, 2011
- * @version: 0.2
+ * @version: 0.3
  * @license: MIT License <https://github.com/Nijikokun/Hasher>
  */
 
@@ -14,7 +14,7 @@ var Hasher = {
     routes: [],
     
     regex : {
-        HASH_STRIP: /^#*/,
+        HASH_STRIP: /^(\#|\#\!)*/,
         ARG_NAMED: /:([\w\d]+)/g,
         ARG_SPLAT: /\*([\w\d]+)/g,
         ESC: /[-[\]{}()+?.,\\^$|#\s]/g

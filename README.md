@@ -1,12 +1,12 @@
      
-    # |_|  _   _ |_   _   _ 1\5
+    # |_|  _   _ |_   _   _ 2\6
       | | (_| _) | | |/_ | 
 
 Hasher is a small but powerful URL Hash Routing script. It allows you to easily manage and create routes as well as apply object and functions to those routes.
 
 Usage:
     
-    // Add a route: (http://url.to.index/#/name/Nijikokun) will initialize this.
+    // Add a route: (http://url.to.index/#/name/Nijikokun) or (http://url.to.index/#!/name/Nijikokun) will initialize this.
     Hasher.add("/name/:name", function(name) {
         // Alert
         alert(name);
